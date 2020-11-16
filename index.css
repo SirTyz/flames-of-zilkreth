@@ -1,0 +1,45 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.introduction {
+    max-width: 900px;
+}
+
+.mapContainer {
+    max-width: 900px;
+}
+
+.descriptions {
+    max-width: 900px;
+}
+
+.entry {
+    display: flex;
+    align-items: flex-start;
+}
+
+.locationInfo {
+    display: flex;
+    margin-right: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.locationInfo h3 {
+    margin-top: 16px;
+    margin-bottom: 5px;
+    
+}
+
+.locationInfo .navArrows a {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.locationDescriptions hr {
+    opacity: .25;
+}
